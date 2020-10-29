@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2020-10-28-----Conversor Fahrenheit Celsius", "2020-10-28-----Conversor Fahrenheit Celsius\2020-10-28-----Conversor Fahrenheit Celsius.csproj", "{EED1136C-4829-4A9A-8C29-B114D6E578DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prueba", "Prueba\Prueba.csproj", "{7C63D606-CA82-4C6C-A10E-B0BC625856CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{EED1136C-4829-4A9A-8C29-B114D6E578DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EED1136C-4829-4A9A-8C29-B114D6E578DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EED1136C-4829-4A9A-8C29-B114D6E578DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C63D606-CA82-4C6C-A10E-B0BC625856CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C63D606-CA82-4C6C-A10E-B0BC625856CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C63D606-CA82-4C6C-A10E-B0BC625856CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C63D606-CA82-4C6C-A10E-B0BC625856CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

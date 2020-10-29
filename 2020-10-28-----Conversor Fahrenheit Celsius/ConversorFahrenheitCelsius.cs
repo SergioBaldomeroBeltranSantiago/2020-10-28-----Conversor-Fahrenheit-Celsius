@@ -28,14 +28,14 @@ namespace _2020_10_28_____Conversor_Fahrenheit_Celsius
                 if (FaToCe.Checked && CeToFa.Checked == false)
                 {
                     cantidad_convertida = conversor.FaCe(conversor.IsValidNumber(UserDisplay.Text));
-                    cantidad_final = " °F";
+                    Symbol.Text = " °C";
                 }
                 else if (CeToFa.Checked && FaToCe.Checked == false) {
-                    cantidad_convertida = conversor.FaCe(conversor.IsValidNumber(UserDisplay.Text));
-                    cantidad_final = " °C";
+                    cantidad_convertida = conversor.CeFa(conversor.IsValidNumber(UserDisplay.Text));
+                    Symbol.Text = " °F";
                 }
                 if (!float.IsNaN(cantidad_convertida)) {
-                    cantidad_final = cantidad_convertida + cantidad_final;
+                    cantidad_final = cantidad_convertida.ToString();
                     UserDisplay.Text = cantidad_final;
                 }
             }

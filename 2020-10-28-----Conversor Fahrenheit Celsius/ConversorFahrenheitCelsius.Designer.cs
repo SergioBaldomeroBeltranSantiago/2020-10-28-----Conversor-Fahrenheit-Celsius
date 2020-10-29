@@ -33,6 +33,7 @@
             this.FaToCe = new System.Windows.Forms.RadioButton();
             this.UserDisplay = new System.Windows.Forms.TextBox();
             this.Doer = new System.Windows.Forms.Button();
+            this.Symbol = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -75,7 +76,7 @@
             this.UserDisplay.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UserDisplay.Location = new System.Drawing.Point(19, 15);
             this.UserDisplay.Name = "UserDisplay";
-            this.UserDisplay.Size = new System.Drawing.Size(148, 26);
+            this.UserDisplay.Size = new System.Drawing.Size(107, 26);
             this.UserDisplay.TabIndex = 1;
             // 
             // Doer
@@ -89,10 +90,20 @@
             this.Doer.UseVisualStyleBackColor = true;
             this.Doer.Click += new System.EventHandler(this.Doer_Click);
             // 
+            // Symbol
+            // 
+            this.Symbol.AutoSize = true;
+            this.Symbol.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Symbol.Location = new System.Drawing.Point(132, 23);
+            this.Symbol.Name = "Symbol";
+            this.Symbol.Size = new System.Drawing.Size(0, 20);
+            this.Symbol.TabIndex = 3;
+            // 
             // ConversorFahrenheitCelsius
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.Symbol);
             this.Controls.Add(this.Doer);
             this.Controls.Add(this.UserDisplay);
             this.Controls.Add(this.groupBox1);
@@ -112,5 +123,6 @@
         private System.Windows.Forms.RadioButton FaToCe;
         private System.Windows.Forms.TextBox UserDisplay;
         private System.Windows.Forms.Button Doer;
+        private System.Windows.Forms.Label Symbol;
     }
 }
